@@ -1,0 +1,14 @@
+{
+    "name": "badchoice/hurricane",
+    "description": "Simple css atomic framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi Puigdellivol",
+            "email": "jordi@gloobus.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

@@ -1,0 +1,32 @@
+.sortableHeader{
+  display: -webkit-flex;
+  align-items: center;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.sortArrows {
+  font-size: 9px;
+  display: block;
+  margin-left: 5px;
+  margin-right: 10px;
+  opacity: 0.5;
+  height: 20px;
+
+  .sortUp {
+    margin-top: -5px;
+    position: absolute;
+  }
+  .sortDown {
+    margin-top: 7px;
+    position: absolute;
+  }
+}
+
+//==============================
+// JQUERY UI Fixes
+//==============================
+.ui-sortable-helper {
+  display: table;
+}
