@@ -53,10 +53,33 @@ table td:last-child, table th:last-child{
   .pr4;
 }
 
-table thead.sticky {
+
+table thead.sticky{
+  background: #fff;
+}
+
+table thead.sticky th{
   position: -webkit-sticky;
   position: sticky;
-  top: -1px;
+  top: -4px;
   z-index: 5;
-  background: #fff;
+}
+
+table thead.sticky th.sticky:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: -4px;
+  z-index: 6;
+}
+
+table tbody td.sticky {
+  background: @broken-white;
+}
+
+table tbody th.sticky,td.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 5;
 }
